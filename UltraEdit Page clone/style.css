@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    width: 164px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+    padding: 12px;
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.first span {
+    font-size: 35px;
+}
+
+section span img {
+    width: 82px;
+    padding: 0px 2px;
+}
+
+.first p {
+    font-size: 23px;
+    width: 60vw;
+    text-align: center;
+}
+
+.btn {
+    background-color: #00b6d1;
+    padding: 10px 4px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 7px;
+    border: none;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.green {
+    background-color: #5cb85c;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.second {
+    max-width: 65vw;
+    margin: auto;
+
+}
+
+.item {
+    padding: 23px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.item-lang {
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+.download img {
+    width: 30px;
+
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.download span {
+    font-size: 17px;
+
+}
+
+.third {
+    display: flex;
+    background-color: #222;
+    height: 330px;
+    margin-top: 22px;
+    color: white;
+    /* align-items: center;  */
+    justify-content: center;
+    gap: 180px;
+}
+
+.sect1 {
+    height: 153px;
+    padding: 40px;
+    margin-top: 152px;
+    text-align: center;
+
+}
+
+.sect1 span {
+    font-size: 25px;
+}
+
+.sect1 p {
+    width: 386px;
+}
+
+.third form {
+    background-color: white;
+    width: 23vw;
+    height: 240px;
+    color:black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+
+}
+.third form span{
+    color: #00b6d1;
+    padding: 23px;
+    font-size: 26px;
+    margin-top: 10px;
+}
+.third input{
+    width: 227px;
+    height: 33px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.third button{
+    width: 232px;
+    height: 34px;
+    background-color: #00b6d1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    
+}
+.third{
+    color: white;
+}
+.fourth{
+    background-color: #222;
+    height: 250px;
+    color: white;
+    /* border: 2px solid red; */
+    padding: 0px 165px;
+    gap: 17px;
+    display: flex
+;
+    flex-direction: column;
+}
+.fourth div{
+    font-size: 20px;
+} 
+.fourth p{
+    font-size: 16px;
+}
+.foot{
+    font-size: 17px;
+    display: flex;
+    column-gap: 31PX;
+    padding: 100PX 25PX;
+    background-color: white;
+    height: 550PX;
+    /* border: 2PX solid red; */
+    justify-content: center;
+}
+.foot .heading{
+    font-weight: 700;
+    display: flex;
+    margin: 19px 0px;
+}
+.lastform p{
+    width: 171px;
+}
+.sect15 div{
+    display: flex;
+    flex-direction: column;
+}
+
+.foot div{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.foot input{
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    
+}
+.foot button{
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+    background-color: #00b6d1;
+}
+@media screen and (max-width:1100px) {
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+
+}
